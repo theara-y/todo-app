@@ -2,6 +2,7 @@ div#app {
     display: grid;
     grid-template-columns: 15% 1fr 1fr;
     grid-auto-rows: minmax(33px, auto);
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 #header {
@@ -34,7 +35,7 @@ div#app {
 
 .todo-item {
     display: grid;
-    grid-template-columns: 10% 1fr;
+    grid-template-columns: 12% 1fr;
     grid-auto-rows: 36px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
@@ -43,6 +44,7 @@ div#app {
 
 .delete-todo {
     text-align: center;
+    color: red;
 }
 
 .todo-item form {
@@ -52,6 +54,7 @@ div#app {
 #todo-input {
     grid-column: 2;
     align-self: stretch;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 #submit {
